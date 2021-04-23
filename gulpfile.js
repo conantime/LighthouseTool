@@ -22,7 +22,6 @@ let chrome
  * }
  */
 async function launchChrome () {
-    console.log('123');
     try {
         chrome = await chromeLaumcher.launch({
             chromeFlags: [
