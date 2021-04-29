@@ -54,7 +54,6 @@ async function launchChrome () {
  * @return {Promise<LH.RunnerResult|undefined>}
  */
 async function lighthouseRunnner (url, opt, config = { extends: 'lighthouse:default' }) {
-    console.log('a');
     try {
         return lighthouse(url, opt, config);
     } catch (error) {
